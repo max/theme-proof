@@ -1,0 +1,22 @@
+@value --border-color: #E7EAEC;
+
+@value --theme-a-border-color: #FF2E55;
+@value --theme-b-border-color: #414EF9;
+
+.content {
+  align-items: center;
+  border: 1px solid --border-color;
+  border-radius: 4px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 400px;
+}
+
+.theme-a .content {
+  border-color: --theme-a-border-color;
+}
+
+.theme-b .content {
+  border-color: --theme-b-border-color;
+}
