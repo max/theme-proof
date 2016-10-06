@@ -1,7 +1,9 @@
 @value --border-color: #E7EAEC;
 
 @value --theme-a-border-color: #FF2E55;
+@value --theme-a-color: #FF2E55;
 @value --theme-b-border-color: #414EF9;
+@value --theme-b-color: #FF2E55;
 
 .content {
   align-items: center;
@@ -15,8 +17,10 @@
 
 .theme-a .content {
   border-color: --theme-a-border-color;
+  color: --theme-a-color;
 }
 
 .theme-b .content {
   border-color: --theme-b-border-color;
+  color: --theme-b-color;
 }
