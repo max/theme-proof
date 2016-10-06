@@ -3,7 +3,7 @@
 @value --theme-a-border-color: #FF2E55;
 @value --theme-a-color: #FF2E55;
 @value --theme-b-border-color: #414EF9;
-@value --theme-b-color: #FF2E55;
+@value --theme-b-color: #414EF9;
 
 .content {
   align-items: center;
@@ -12,6 +12,8 @@
   display: flex;
   height: 200px;
   justify-content: center;
+  transition: border-color 0.2s ease-in-out,
+              color 0.2s ease-in-out;
   width: 400px;
 }
 
